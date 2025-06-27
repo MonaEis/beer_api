@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Roboto-Slab";
+    src: url("../Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Roboto-Slab";
+    color: var(--cl-black);
+}
+
+:root {
+    --cl-yellow: #ffca41;
+    --cl-black: #333;
+    --cl-grey:rgba(51, 51, 51, 0.50);
+    --fs-40: clamp(2rem, 1.2683rem + 3.122vw, 4rem);
+    --fs-25: clamp(1rem, 0.4512rem + 2.3415vw, 2.5rem);
+  }
+
+a {
+    text-decoration: none;
+}
+
+.yellow-btn {
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 2rem;
+    background-color: var(--cl-yellow);
+    border-radius: 1rem;
+}
+
+
+/** Navi */
+nav {
+    height: 15rem;
+    background-color: var(--cl-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img{
+  height: 8rem;
+}
+
+/** HomePage */
+.homepage{
+  padding: 8rem 15vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.homepage article img{
+  object-fit: cover;
+  border-radius: 3rem 3rem 0 0;
+  width: 100%;
+  height: 30vh;
+  margin-bottom: -3px;
+}
+
+.homepage article h2{
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0 0 3rem 3rem;
+  font-size: var(--fs-40);
+  background-color: var(--cl-yellow);
+  margin-bottom: 1rem;
+}
+
+.homepage article p{
+  color: var(--cl-black);
+  
+  font-size: var(--fs-25);
+}
+
+
+/** AllBeersPage */
+.allbeers {
+    padding: 5rem 8vw;
+}
+
+.allbeers > div {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--cl-black);
+    padding: 1rem 5vw;
+}
+
+.allbeers img {
+    height: 30rem;
+    width: 20rem;
+    border-radius: 3rem;
+    object-fit: cover;
+    margin-right: 5rem;
+}
+
+@media (max-width: 950px) {
+  .allbeers img {
+    height: 30rem;
+    width: 12rem;
+    margin-right: 2rem;
+}
+}
+
+.allbeers h3{
+  font-size: var(--fs-40);
+}
+
+.allbeers h4{
+  color: var(--cl-yellow);
+  font-size: var(--fs-25);
+}
+
+.allbeers h5 {
+  font-size: var(--fs-25);
+    margin-bottom: 3rem;
+}
+
+
+/* *Detail Page */
+.detail {
+  padding: 5rem 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.detail >img {
+  width: 80%;
+border-radius: 4rem;
+  margin-bottom: 2rem;
+  align-self: center;
+}
+
+.detail h3 {
+font-size: var(--fs-40);
+}
+
+.detail h4 {
+  font-size: var(--fs-25);
+  color: var(--cl-yellow);
+  margin-bottom: 2rem;
+  }
+
+.detail .detailed-details{
+  width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.detail .detailed-details:nth-of-type(2){
+  margin-bottom: 2rem;
+}
+
+.detail .detailed-details p {
+  font-size: var(--fs-25);
+  color: var(--cl-grey);
+}
+
+.detail >p{
+  font-size: var(--fs-25);
+  margin-bottom: 2rem;
+}
+
+.detail h5 {
+  font-size: var(--fs-25);
+  align-self: flex-end;
+  margin-bottom: 2rem;
+  }
+
+.error-msg{
+  padding: 10rem;
+}
+
+.error-msg p {
+    margin-bottom: 5rem;
+}
+
+
