@@ -1,54 +1,65 @@
-# React + TypeScript + Vite
+# 🍺 Beer API (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Eine React-basierte Benutzeroberfläche zum Anzeigen und Verwalten verschiedener Biersorten.  
+Dieses Projekt wurde mit TypeScript, Vite und CSS erstellt und ist als Live-Demo auf Vercel verfügbar.
 
-Currently, two official plugins are available:
+![ScreenMacBook](dist/assets/Macbook-Air-beer-api-tau.vercel.app.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live-Demo**: [https://beer-api-tau.vercel.app/](https://beer-api-tau.vercel.app/)
 
-## Expanding the ESLint configuration
+## 📌 Inhalt
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Über das Projekt](#über-das-projekt)
+- [Verwendete Technologien](#verwendete-technologien)
+- [Nutzung](#nutzung)
+- [Screenshots](#screenshots)
+- [Autorin](#autorin)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🧾 Über das Projekt
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Dieses Projekt ist Teil einer Übung im Rahmen der SuperCode Webentwicklungs-Weiterbildung. Ziel war es, eine einfache Benutzeroberfläche zu erstellen, die mit einer REST-API kommuniziert.  
+Nutzer:innen können Informationen über Biersorten abrufen und anzeigen lassen.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<div align="center">
+  <img src="dist/assets/iPad-PRO-11-beer-api-tau.vercel.app.png" width="40%" />
+  <img src="dist/assets/iPhone-14-Plus-beer-api-tau.vercel.app_1.png" width="22%" />
+</div>
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛠️ Verwendete Technologien
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- CSS
+
+
+
+## ▶️ Nutzung
+
+Nach dem Start zeigt die App eine übersichtliche Liste verschiedener Biersorten – sortiert, stylisch und API-gestützt.  
+Die Daten werden in Echtzeit geladen,die von einer REST-API bereitstellt werden.
+
+<div align="center">
+  <img src="dist/assets/iPhone-14-Plus-beer-api-tau.vercel.app.png" width="22%" />
+  <img src="dist/assets/iPad-PRO-11-beer-api-tau.vercel.app_1.png" width="40%" />
+</div>
+
+Du kannst:
+
+- eine Live-Vorschau der Biere sehen
+- mit der API kommunizieren (GET)
+- die Anwendung lokal testen oder auf Vercel live nutzen
+
+Features:
+
+- 🔄 Echtzeit-Fetch mit `useEffect`
+- 🧠 State-Management via `useState`
+
+🔗 **Live-Demo**: [https://beer-api-tau.vercel.app/](https://beer-api-tau.vercel.app/)
+
+
+## 👩‍💻 Autorin
+
+
+
+🔗 GitHub: [MonaEis](https://github.com/MonaEis)
