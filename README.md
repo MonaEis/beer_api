@@ -3,7 +3,7 @@
 Eine React-basierte Benutzeroberfläche zum Anzeigen und Verwalten verschiedener Biersorten.  
 Dieses Projekt wurde mit TypeScript, Vite und CSS erstellt und ist als Live-Demo auf Vercel verfügbar.
 
-![ScreenMacBook](dist/assets/Macbook-Air-beer-api-tau.vercel.app.png)
+![ScreenMacBook](src/assets/Macbook-Air-beer-api-tau.vercel.app.png)
 
 🔗 **Live-Demo**: [https://beer-api-tau.vercel.app/](https://beer-api-tau.vercel.app/)
 
@@ -21,8 +21,8 @@ Dieses Projekt ist Teil einer Übung im Rahmen der SuperCode Webentwicklungs-Wei
 Nutzer:innen können Informationen über Biersorten abrufen und anzeigen lassen.
 
 <div align="center">
-  <img src="dist/assets/iPad-PRO-11-beer-api-tau.vercel.app.png" width="40%" />
-  <img src="dist/assets/iPhone-14-Plus-beer-api-tau.vercel.app_1.png" width="22%" />
+  <img src="src/assets/iPad-PRO-11-beer-api-tau.vercel.app.png" width="40%" />
+  <img src="src/assets/iPhone-14-Plus-beer-api-tau.vercel.app_1.png" width="22%" />
 </div>
 
 ## 🛠️ Verwendete Technologien
@@ -40,8 +40,8 @@ Nach dem Start zeigt die App eine übersichtliche Liste verschiedener Biersorten
 Die Daten werden in Echtzeit geladen,die von einer REST-API bereitstellt werden.
 
 <div align="center">
-  <img src="dist/assets/iPhone-14-Plus-beer-api-tau.vercel.app.png" width="22%" />
-  <img src="dist/assets/iPad-PRO-11-beer-api-tau.vercel.app_1.png" width="40%" />
+  <img src="src/assets/iPhone-14-Plus-beer-api-tau.vercel.app.png" width="22%" />
+  <img src="src/assets/iPad-PRO-11-beer-api-tau.vercel.app_1.png" width="40%" />
 </div>
 
 Du kannst:
